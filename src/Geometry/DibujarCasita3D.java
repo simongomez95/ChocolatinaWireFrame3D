@@ -153,16 +153,9 @@ public class DibujarCasita3D extends JPanel implements KeyListener {
      */
 
     public void readObjectDescription(String fileName) {
-        Scanner in;
-        //po = new PolygonObject();
-        po = fr.getObjeto();
-        try {
 
-            // Read the Project Plane Distance to the virtual camera
-            proyectionPlaneDistance = 50;
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+        po = fr.getObjeto();
+        proyectionPlaneDistance = 50;
 
     }
 
